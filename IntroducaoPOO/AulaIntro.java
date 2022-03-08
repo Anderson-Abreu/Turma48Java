@@ -7,10 +7,11 @@ public class AulaIntro {
 		Caneta c2 = new Caneta("vermelha", 1.0, 80);
 		Caneta c3 = new Caneta("roxa", 0.5, 100);
 		
+		c1.setCarga(25);
 		
-	//	c1.estado();
+		System.out.println(c1.getCarga());
 		
-		System.out.println(c1.ponta);
+		
 	}
 
 }
